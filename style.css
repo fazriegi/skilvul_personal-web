@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+body {
+  background-color: rgb(2 6 23);
+  color: #48cae4;
+}
+
+/* ======= Header ======= */
+header {
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#icon {
+  font-size: 28px;
+  color: #48cae4;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+nav ul a {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+nav ul a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #48cae4;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+nav ul a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
+/* ======= Hero ======= */
+#hero {
+  display: flex;
+  padding: 0 200px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#hero .profile {
+  width: 100%;
+}
+
+#hero .profile h1 {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.profile h3 {
+  color: #acacac;
+  font-size: 20px;
+}
+
+#hero .social-links {
+  margin-top: 40px;
+  display: flex;
+}
+
+#hero .social-links a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#hero .social-links a:hover {
+  background: #48cae4;
+}
+
+#hero .container {
+  width: 100%;
+  align-self: flex-end;
+}
+
+#hero .photo {
+  position: relative;
+  margin-top: 10px;
+}
+
+.photo img {
+  position: relative;
+  margin: auto 0;
+  left: 20%;
+  bottom: -7px;
+}
+
+/* ======= Footer ======= */
+footer {
+  border-top: 1px solid #565656;
+  padding: 33px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+}
+footer p span {
+  font-size: 14px;
+  color: #48cae4;
+}

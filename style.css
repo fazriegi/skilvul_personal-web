@@ -3,13 +3,13 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
 body {
   background-color: rgb(2 6 23);
-  color: #48cae4;
+  color: #fffbf4;
 }
 
 /* ======= Header ======= */
@@ -65,17 +65,22 @@ nav ul a:hover::after {
   margin-top: 50px;
 }
 
-#hero .profile {
+#hero .name {
   width: 100%;
 }
 
-#hero .profile h1 {
-  color: #fff;
+#hero .name h2 {
+  font-size: 18px;
+  color: #48cae4;
+  margin-bottom: -10px;
+}
+
+#hero .name h1 {
   font-size: 46px;
   font-weight: 700;
 }
 
-.profile h3 {
+.name h3 {
   color: #acacac;
   font-size: 20px;
 }
@@ -90,8 +95,7 @@ nav ul a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -103,6 +107,51 @@ nav ul a:hover::after {
   background: #48cae4;
 }
 
-#hero .container {
+.container {
   width: 100%;
+}
+
+/* ======== About ======== */
+#about {
+  display: flex;
+  margin: 50px 200px 0;
+  align-items: center;
+}
+
+#profile h1,
+#profile span {
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+
+#profile span {
+  color: #48cae4;
+}
+
+#profile p {
+  margin-bottom: 20px;
+}
+
+#technologies {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tools {
+  background-color: #0077b6;
+  padding: 4px 14px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.tools:hover {
+  background-color: #0096c7;
+}
+
+#about img {
+  margin-left: 20px;
+  border: 2px solid #48cae4;
+  border-radius: 50%;
 }

@@ -105,35 +105,4 @@ nav ul a:hover::after {
 
 #hero .container {
   width: 100%;
-  align-self: flex-end;
-}
-
-#hero .photo {
-  position: relative;
-  margin-top: 10px;
-}
-
-.photo img {
-  position: relative;
-  margin: auto 0;
-  left: 20%;
-  bottom: -7px;
-}
-
-/* ======= Footer ======= */
-footer {
-  border-top: 1px solid #565656;
-  padding: 33px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer p {
-  font-size: 14px;
-  color: #fff;
-}
-footer p span {
-  font-size: 14px;
-  color: #48cae4;
 }

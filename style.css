@@ -3,7 +3,7 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -83,7 +83,6 @@ nav ul a:hover::after {
 }
 
 #hero .name h2 {
-  font-size: 18px;
   color: #48cae4;
   margin-bottom: -10px;
 }
@@ -151,6 +150,7 @@ nav ul a:hover::after {
   padding: 4px 14px;
   border-radius: 50px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .tools:hover,
@@ -159,7 +159,7 @@ nav ul a:hover::after {
 }
 
 #about img {
-  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 30px;
   border: 2px solid #48cae4;
   border-radius: 50%;
@@ -168,14 +168,13 @@ nav ul a:hover::after {
 /* ======== Portfolio ======== */
 #portfolio {
   margin: 0 200px 0;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 #portfolio h1 {
   font-size: 38px;
   font-weight: 700;
   color: #48cae4;
-  text-align: center;
 }
 
 #projects {
